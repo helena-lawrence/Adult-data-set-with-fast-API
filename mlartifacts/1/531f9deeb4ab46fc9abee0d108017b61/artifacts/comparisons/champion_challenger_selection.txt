@@ -1,0 +1,4 @@
+CHAMPION: Model_3_Regularised_MLP (validation F1=0.6832)
+CHALLENGER: Model_1_Simple_MLP (validation F1=0.6723)
+Selection rule: rank all three models by validation F1-score; use validation ROC-AUC to break ties.
+The test set was NOT used for choosing the roles.

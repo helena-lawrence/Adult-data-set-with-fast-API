@@ -1,0 +1,32 @@
+{
+  "champion_name": "Model_3_Regularised_MLP",
+  "challenger_name": "Model_1_Simple_MLP",
+  "selection_metric": "validation F1-score",
+  "validation_champion_f1": 0.6832183908045977,
+  "validation_challenger_f1": 0.6722767648433847,
+  "input_size": 87,
+  "feature_columns": [
+    "age",
+    "workclass",
+    "education.num",
+    "marital.status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "capital.gain",
+    "capital.loss",
+    "hours.per.week",
+    "native.country"
+  ],
+  "hidden": [
+    128,
+    64,
+    32
+  ],
+  "dropout": 0.25,
+  "batch_norm": true,
+  "threshold": 0.5,
+  "champion_weights": "Model_3_Regularised_MLP.pt",
+  "preprocessor_file": "preprocessor.joblib"
+}
